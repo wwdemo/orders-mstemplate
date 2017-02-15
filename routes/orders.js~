@@ -22,5 +22,5 @@ exports.find = function(req, res) {
 
 /* list all orders */
 exports.list = function(req, res) {
-	res.status(201).send(ordersDb.toString());
+	res.send(ordersDb.toString());
 };

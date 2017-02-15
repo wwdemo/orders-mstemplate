@@ -21,7 +21,7 @@ app.post('/rest/orders', function(req, res) {
 );
 //app.get('/rest/orders/:id', orders.find);
 app.get('/rest/orders', function(req, res){
-	res.status(201).send('Orders: ' + ordersDb.toString());
+	res.status(201).send(ordersDb.toString());
 	}
 );
 
